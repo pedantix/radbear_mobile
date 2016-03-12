@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
     :storage => :s3,
     :s3_credentials => "#{::Rails.root.to_s}/config/s3.yml",
     :path => "/:class/:attachment/:style/:hash.:extension",
-    :hash_secret => "thi5I5My5ecret"
+    :hash_secret => "testing"
     
   def admin
     return false
