@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
   include TokenAuthenticatable
-  include RadbearUser
   
   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :trackable, :validatable

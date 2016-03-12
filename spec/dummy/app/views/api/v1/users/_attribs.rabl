@@ -14,6 +14,6 @@ node(:avatar) do |this|
   elsif this.provider_avatar
     {:small => this.provider_avatar, :normal => this.provider_avatar}
   else
-    asset_avatar("document.png")
+    #todo asset_avatar("document.png")
   end
 end
