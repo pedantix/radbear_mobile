@@ -1,0 +1,7 @@
+.bundle/
+log/*.log
+spec/dummy/log/*.log
+spec/dummy/tmp
+pkg/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,8 @@
+Description:
+    The install generator will create the initializer required for radbear_mobile, found in config/initializers of your rails project.
+
+Example:
+    Rails will generate the needed environment files for radbear_mobile.
+
+    This will create:
+        config/initializers/radbear_mobile.rb
