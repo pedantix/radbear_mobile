@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rabl", "~> 0.12"
   s.add_dependency "koala", "~> 2.2.0"
+  s.add_dependency "rails", "~> 5"
 
-  s.add_development_dependency "rspec-rails", "~> 3.1.0"
-  s.add_development_dependency "factory_girl_rails", "~> 4.4.1"
+  s.add_development_dependency "rspec-rails", "~> 3"
+  s.add_development_dependency "factory_girl_rails", "~> 4"
 end

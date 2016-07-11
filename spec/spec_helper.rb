@@ -31,6 +31,11 @@ RSpec.configure do |config|
     allow(Company).to receive_message_chain(:main, :app_logo_includes_name).and_return(false)
   end
   
-  include Devise::TestHelpers
-  include Warden::Test::Helpers
+
+  
+  config.include FactoryGirl::Syntax::Methods
+
+  #config.include Warden::Test::Helpers
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  #config.include Devise::Test::ControllerHelpers, type: :request 
 end

@@ -55,3 +55,7 @@ When refactoring and modifying code in this project while developing other proje
 to undo this and revert to the remote github repository:
 
 `bundle config --delete local.radbear_mobile`
+
+## Development
+
+In order to develop you need to setupa  .env file with FACEBOOK_APP_ID and FACEBOOK_APP_SECRET variable setup.
