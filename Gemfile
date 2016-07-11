@@ -14,10 +14,11 @@ gemspec
 # gem 'debugger'
 
 #needed to run the dummy app for the test suite
-gem "rails",                           "~> 4.1.5"
-gem "devise",                          "~> 3.5.2"
-gem 'paperclip',                       "~> 4.3.0"
-gem 'aws-sdk',                         "~> 1.64"
+gem "rails",                           "~> 5"
+gem "devise",                          "~> 4"
+gem 'paperclip',                       "~> 5"
+gem 'aws-sdk',                         "~> 2"
 gem "validates_lengths_from_database", "~> 0.2.0"
-gem "pg",                              "~> 0.17.1"
-gem "faker",                           "~> 1.4.3"
+gem "pg",                              "~> 0.18"
+gem "faker",                           "~> 1.6"
+gem 'dotenv-rails', :groups => [:development, :test]

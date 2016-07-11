@@ -1,7 +1,8 @@
 module RadbearMobile
   class ApplicationController < ActionController::Base
-    prepend_before_filter :get_auth_token
-    before_filter :set_api_version
+    protect_from_forgery
+    prepend_before_action :get_auth_token
+    before_action :set_api_version
     
     def current_auth_user
       return @current_api_user

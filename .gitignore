@@ -1,3 +1,4 @@
+.env
 .bundle/
 log/*.log
 spec/dummy/log/*.log
