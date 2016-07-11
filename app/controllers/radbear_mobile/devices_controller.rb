@@ -1,6 +1,6 @@
 module RadbearMobile
   class DevicesController < RadbearMobile::ApplicationController
-    before_filter :rb_token_auth
+    before_action :rb_token_auth
     respond_to :json
     
     def create
