@@ -3,7 +3,7 @@ PATH
   specs:
     radbear_mobile (0.0.1)
       koala (~> 2.2.0)
-      rabl (~> 0.10.0)
+      rabl (~> 0.12)
 
 GEM
   remote: https://rubygems.org/
@@ -78,7 +78,7 @@ GEM
     mimemagic (0.3.0)
     mini_portile2 (2.0.0)
     minitest (5.5.1)
-    multi_json (1.11.2)
+    multi_json (1.12.1)
     multipart-post (2.0.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -90,7 +90,7 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.17.1)
-    rabl (0.10.1)
+    rabl (0.12.0)
       activesupport (>= 2.3.14)
     rack (1.5.2)
     rack-test (0.6.3)
@@ -159,3 +159,6 @@ DEPENDENCIES
   rails (~> 4.1.5)
   rspec-rails (~> 3.1.0)
   validates_lengths_from_database (~> 0.2.0)
+
+BUNDLED WITH
+   1.12.5
